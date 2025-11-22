@@ -21,3 +21,9 @@ The bunny represents computer graphics tradition. The red star represents our be
 ---
 
 [Learn more about PGCL](https://m0th.bearblog.dev/pgcl)
+
+## Acknowledgments
+
+- Gpytoolbox by Silvia Sellán
+- Polyscope by Nick Sharp
+- Geometry Processing Research in Python (https://github.com/odedstein/geometry-processing-research-in-python)
