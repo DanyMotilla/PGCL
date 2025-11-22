@@ -2,6 +2,9 @@
 
 Collective knowledge repository of the Potosí Geometric Computing Laboratory.
 
+![PGCL](images/PGCL.png)
+
+
 ## Our Manifesto
 
 **Knowledge should be truly free.** Programs like MIT's Summer Geometry Initiative claim to be open to everyone but require applications with cover letters, resumes, reference letters, and transcripts limited to undergraduate and graduate students who can prove they deserve access. We reject this gatekeeping entirely.
