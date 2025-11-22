@@ -1,0 +1,148 @@
+---
+title: "PGCL Session 1"
+subtitle: "From Visual to Code: Why We Need Both"
+author: "daniel motilla monreal"
+format: 
+  revealjs:
+    theme: dark
+    transition: slide
+---
+
+## Welcome to PGCL
+
+Potosí Geometric Computing Laboratory
+
+**No applications. No credentials. Just curiosity.**
+
+If you want to learn, you belong here.
+
+---
+
+## Today's Journey
+
+**Part 1:** Play with geometry in Blender
+
+**Part 2:** Hit Blender's limits
+
+**Part 3:** Break through with Python code
+
+---
+
+## Let's Start with Blender
+
+**First: Make sure you have Blender installed**
+
+Then we'll:
+
+- See geometry concepts visually
+- Understand what's possible in 3D
+- Build intuition through interaction
+
+**Let's open it together.**
+
+---
+
+## Blender Demo Time
+
+*[Live demonstration]*
+
+**We'll explore:**
+
+- Geometry Nodes basics
+- Subdivision and deformation
+- Procedural patterns
+
+**Play around, experiment, break things!**
+
+---
+
+## Blender is Amazing, But...
+
+**What happens when you need to:**
+
+- Process 100 files automatically?
+- Reproduce exact results?
+- Version control your work?
+- Integrate with research pipelines?
+
+**This is where code becomes essential.**
+
+---
+
+## Enter: Python + Geometry Libraries
+
+**Gpytoolbox** - Geometry processing operations
+
+**Polyscope** - 3D visualization
+
+Same operations as Blender, but:
+
+- Scriptable and reproducible
+- Version controlled
+- Research-ready
+
+---
+
+## Setup Time
+
+**What you need:**
+
+- [Install gpytoolbox & polyscope](https://github.com/odedstein/geometry-processing-research-in-python/tree/main/exercise_00)
+- [Download a 3D model](https://github.com/alecjacobson/common-3d-test-models)
+
+**Then we'll load our first mesh together.**
+
+---
+
+## Our First Mesh in Code
+
+```python
+import gpytoolbox as gpy
+import polyscope as ps
+
+# Load a mesh
+v, f = gpy.read_mesh("bunny.obj")
+
+# Visualize it
+ps.init()
+ps.register_surface_mesh("bunny", v, f)
+ps.show()
+```
+
+**6 lines. That's all.**
+
+---
+
+## What's Next?
+
+Session 2-3: Mesh fundamentals
+
+Session 4-5: Implicit surfaces - sculpting with math
+
+Session 6+: We'll figure it out together!
+
+---
+
+## For Next Week
+
+**Do:**
+
+- Finish setup if needed
+- Load at least one mesh in Python
+- Experiment with both Blender and code
+
+**Share on the blog:**
+
+- What made sense?
+- What's confusing?
+- What do you want to build?
+
+---
+
+## Thank You!
+
+**There's no "wrong" in learning.**
+
+We're all figuring this out together.
+
+See you next week!
